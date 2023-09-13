@@ -1,0 +1,15 @@
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-container {
+  display: flex;
+  gap: 20px;
+}
+
+.slider-content {
+  height: 250px;
+  width: 250px;
+  background: red;
+}
