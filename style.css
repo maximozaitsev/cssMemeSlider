@@ -1,15 +1,20 @@
 .slider {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .slider-container {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.slider-content {
-  height: 250px;
-  width: 250px;
-  background: red;
+.mem {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+  height: 400px;
+  width: 750px;
 }
