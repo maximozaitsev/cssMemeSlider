@@ -61,3 +61,16 @@ body {
   z-index: 4;
   background-image: url("./img/image4.webp");
 }
+
+/* Captions */
+
+.captions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.captions-container {
+}
+
+.caption {
+}
