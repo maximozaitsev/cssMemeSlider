@@ -115,3 +115,39 @@ input {
   display: none;
   visibility: hidden;
 }
+
+/* Change Slide */
+
+.controls:has(#radio1:checked) ~ .slides .slides-container {
+  transform: translateX(0);
+}
+
+.controls:has(#radio2:checked) ~ .slides .slides-container {
+  transform: translateX(-43.75rem);
+}
+
+.controls:has(#radio3:checked) ~ .slides .slides-container {
+  transform: translateX(-87.5rem);
+}
+
+.controls:has(#radio4:checked) ~ .slides .slides-container {
+  transform: translateX(-131.25rem);
+}
+
+/* Change caption */
+
+.controls:has(#radio1:checked) ~ .captions .captions-container {
+  transform: translateX(0);
+}
+
+.controls:has(#radio2:checked) ~ .captions .captions-container {
+  transform: translateX(-21.875rem);
+}
+
+.controls:has(#radio3:checked) ~ .captions .captions-container {
+  transform: translateX(-43.75rem);
+}
+
+.controls:has(#radio4:checked) ~ .captions .captions-container {
+  transform: translateX(-65.625rem);
+}
