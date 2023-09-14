@@ -70,9 +70,12 @@ body {
 }
 
 .captions-container {
+  display: flex;
+  transition: transform 0.3s linear;
 }
 
 .caption {
+  color: black;
 }
 /* Navigation */
 
