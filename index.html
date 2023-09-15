@@ -9,32 +9,42 @@
   <body>
     <div class="container">
       <div class="slider">
-        <div class="slides">
-          <div class="slides-container">
-            <div class="slide" id="image1"></div>
-            <div class="slide" id="image2"></div>
-            <div class="slide" id="image3"></div>
-            <div class="slide" id="image4"></div>
-          </div>
+        <div class="controls">
+          <input
+            class="input_btn"
+            type="radio"
+            name="slides"
+            id="point1"
+            checked
+          />
+          <label for="point1" class="point"></label>
+          <input class="input_btn" type="radio" name="slides" id="point2" />
+          <label for="point2" class="point"></label>
+          <input class="input_btn" type="radio" name="slides" id="point3" />
+          <label for="point3" class="point"></label>
+          <input class="input_btn" type="radio" name="slides" id="point4" />
+          <label for="point4" class="point"></label>
         </div>
 
-        <div class="controls">
-          <input type="radio" name="slides" id="radio1" checked />
-          <label for="radio1" class="radio"></label>
-          <input type="radio" name="slides" id="radio2" />
-          <label for="radio2" class="radio"></label>
-          <input type="radio" name="slides" id="radio3" />
-          <label for="radio3" class="radio"></label>
-          <input type="radio" name="slides" id="radio4" />
-          <label for="radio4" class="radio"></label>
+        <div class="slides">
+          <div class="slides-container">
+            <img class="slide" src="./img/image1.jpg" alt="img1" />
+            <img class="slide" src="./img/image2.jpg" alt="img2" />
+            <img class="slide" src="./img/image3.jpg" alt="img3" />
+            <img class="slide" src="./img/image4.webp" alt="img4" />
+          </div>
         </div>
 
         <div class="captions">
           <div class="captions-container">
-            <div class="caption">Caption 1</div>
-            <div class="caption">Caption 2</div>
-            <div class="caption">Caption 3</div>
-            <div class="caption">Caption 4</div>
+            <div class="caption">You think you're smarter than me? Really?</div>
+            <div class="caption">Before coffee | After coffee</div>
+            <div class="caption">
+              When someone tells me I have too many books
+            </div>
+            <div class="caption">
+              Don't do it, Carl. You're on your 9th life
+            </div>
           </div>
         </div>
       </div>
